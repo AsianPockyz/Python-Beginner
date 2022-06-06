@@ -1,5 +1,5 @@
 # Python-Beginner
-12 Beginner Python Projects
+Some Beginner Python Projects
 
 1. Madlibs
 2. Guess the number (computer gen)
