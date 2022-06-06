@@ -10,6 +10,6 @@
 7. Tic-Tac-Toe AI
 8. Binary Search
 9. Minesweeper
-10. Sudoku SOlver
+10. Sudoku Solver
 11. Photo manipulation in python
 12. Markov chain text composer
