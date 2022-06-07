@@ -16,8 +16,8 @@ import png
 class Image:
     def __init__(self, x_pixels=0, y_pixels=0, num_channels=0, filename=''):
         # you need to input either filename OR x_pixels, y_pixels, and num_channels
-        self.input_path = r"C:\Users/1kevi/Documents/VSCode Projects/12 Beginner Projects/PyPhotoShop/input/" # path for my personal computer 
-        self.output_path = r"C:\Users/1kevi/Documents/VSCode Projects/12 Beginner Projects/PyPhotoShop/output/" # have to put r to convert to raw string so that the input works on windows
+        self.input_path = "input/" # path for my personal computer 
+        self.output_path = "output/" # have to put r to convert to raw string so that the input works on windows
         if x_pixels and y_pixels and num_channels:
             self.x_pixels = x_pixels
             self.y_pixels = y_pixels
