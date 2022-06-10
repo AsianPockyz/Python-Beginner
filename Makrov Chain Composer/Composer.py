@@ -55,12 +55,12 @@ def main(artist):
     # What is being accomplished here
     # setp 1: get words from text
     
-    #words = get_words_from_text("C:/Users/1kevi/Documents/VSCode Projects/12 Beginner Projects/Markov Chain Composer/texts/hp_sorcerer_stone.txt")
+    #words = get_words_from_text("/texts/hp_sorcerer_stone.txt") # change directory to suit your device
     words = []
-    for song_file in os.listdir(f'C:/Users/1kevi/Documents/VSCode Projects/12 Beginner Projects/Markov Chain Composer/songs/{artist}'):
+    for song_file in os.listdir(f'/songs/{artist}'): # change directory to suit your device
         if song_file == '.DS_Store':
             continue
-        song_words = get_words_from_text(f'C:/Users/1kevi/Documents/VSCode Projects/12 Beginner Projects/Markov Chain Composer/songs/{artist}/{song_file}')
+        song_words = get_words_from_text(f'/songs/{artist}/{song_file}') # change directory to suit your device
         words.extend(song_words)
 
     # step 2: make a graph using those words
