@@ -7,7 +7,7 @@ Some Beginner Python Projects
 4. Rock paper scissor
 5. Hangman
 6. Tic-Tac-Toe
-7. Tic-Tac-Toe AI
+7. Tic-Tac-Toe with BOT
 8. Binary Search
 9. Minesweeper
 10. Sudoku Solver
